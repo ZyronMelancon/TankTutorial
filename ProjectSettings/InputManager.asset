@@ -121,8 +121,8 @@ InputManager:
     m_Name: Horizontal2
     descriptiveName: Horizontal keyboard axis for player 2
     descriptiveNegativeName: 
-    negativeButton: left
-    positiveButton: right
+    negativeButton: l
+    positiveButton: ''''
     altNegativeButton: 
     altPositiveButton: 
     gravity: 3
@@ -137,8 +137,8 @@ InputManager:
     m_Name: Vertical2
     descriptiveName: Vertical keyboard axis for player 2
     descriptiveNegativeName: 
-    negativeButton: down
-    positiveButton: up
+    negativeButton: ;
+    positiveButton: p
     altNegativeButton: 
     altPositiveButton: 
     gravity: 3
@@ -154,7 +154,7 @@ InputManager:
     descriptiveName: Fire keyboard button for player 2
     descriptiveNegativeName: 
     negativeButton: 
-    positiveButton: enter
+    positiveButton: right alt
     altNegativeButton: 
     altPositiveButton: return
     gravity: 1000
@@ -244,6 +244,54 @@ InputManager:
     invert: 1
     type: 2
     axis: 2
+    joyNum: 2
+  - serializedVersion: 3
+    m_Name: Horizontal3
+    descriptiveName: Horizontal gamepad button for player 3
+    descriptiveNegativeName: 
+    negativeButton: '[4]'
+    positiveButton: '[6]'
+    altNegativeButton: 
+    altPositiveButton: 
+    gravity: 3
+    dead: 0.001
+    sensitivity: 3
+    snap: 0
+    invert: 0
+    type: 0
+    axis: 0
+    joyNum: 2
+  - serializedVersion: 3
+    m_Name: Vertical3
+    descriptiveName: Vertical gamepad button for player 3
+    descriptiveNegativeName: 
+    negativeButton: '[5]'
+    positiveButton: '[8]'
+    altNegativeButton: 
+    altPositiveButton: 
+    gravity: 3
+    dead: 0.001
+    sensitivity: 3
+    snap: 0
+    invert: 0
+    type: 0
+    axis: 0
+    joyNum: 2
+  - serializedVersion: 3
+    m_Name: Fire3
+    descriptiveName: Fire gamepad button for player 2
+    descriptiveNegativeName: 
+    negativeButton: 
+    positiveButton: enter
+    altNegativeButton: 
+    altPositiveButton: 
+    gravity: 1000
+    dead: 0.001
+    sensitivity: 1000
+    snap: 0
+    invert: 0
+    type: 0
+    axis: 0
     joyNum: 2
   - serializedVersion: 3
     m_Name: Fire2

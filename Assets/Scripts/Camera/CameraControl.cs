@@ -44,7 +44,7 @@ public class CameraControl : MonoBehaviour
     private void FindAveragePosition()
     {
         Vector3 averagePos = new Vector3();
-        int numTargets = 2;
+        int numTargets = 0;
 
         // Go through all the targets and add their positions together.
         for (int i = 0; i < m_Targets.Length; i++)
